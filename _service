@@ -20,7 +20,6 @@
     </service>
     <service name="lua2pack_generate" mode="buildtime">
         <param name="rockspec">glob://./*.rockspec</param>
-        <param name="luacode">noarch=true;</param>
         <param name="template">obs.obsinfo</param>
     </service>
     <service name="tar" mode="buildtime"/>
